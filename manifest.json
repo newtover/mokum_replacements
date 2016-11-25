@@ -1,0 +1,17 @@
+{
+
+  "manifest_version": 2,
+  "name": "Mokum Replacements",
+  "version": "1.0",
+  "description": "Automatic word replacements in mokum.place",
+  "homepage_url": "https://github.com/newtover/mokum_replacements",
+  "content_scripts": [
+    {
+      "matches": ["https://mokum.place/*"],
+      "js": [
+        "cs/replace_words.js"
+      ]
+    }
+  ]
+}
+
